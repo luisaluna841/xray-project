@@ -13,7 +13,7 @@ Este projeto desenvolve um classificador binário de imagens de raio-X torácico
 **Modelo com melhor desempenho no Kaggle:** ResNet18 Baseline (`submission_resnet18.csv`) — ROC-AUC: 0.99543  
 **Modelo recomendado clinicamente:** ResNet18 com Class Weighting (H3)  
 **Métrica principal:** ROC-AUC  
-**Dataset:** [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/chest-xray-pneumonia-ligia)
+**Dataset:** [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview)
 
 ---
 
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 
 ## Download dos Dados (Kaggle)
 
-As imagens são fornecidas pela competição no [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/chest-xray-pneumonia-ligia) e **não estão incluídas no repositório** por limitações de tamanho. Siga os passos abaixo para baixá-las automaticamente.
+As imagens são fornecidas pela competição no [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview) e **não estão incluídas no repositório** por limitações de tamanho. Siga os passos abaixo para baixá-las automaticamente.
 
 ### Pré-requisito: configurar credenciais do Kaggle
 
@@ -131,7 +131,7 @@ O script irá:
 - Organizar automaticamente nas pastas `data/train/` e `data/test_images/`
 - Verificar a integridade dos arquivos após o download
 
-> **Nota:** É necessário ter aceitado os termos da competição no [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/chest-xray-pneumonia-ligia) antes de executar o script.
+> **Nota:** É necessário ter aceitado os termos da competição no [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview) antes de executar o script.
 
 ---
 
@@ -245,7 +245,7 @@ Todos os experimentos compartilham os mesmos splits, hiperparâmetros base (lr=1
 
 ### Baseline — ResNet18 + Augmentation Leve + Sem Class Weight
 
-Modelo de referência. Estabelece o desempenho base do projeto com a arquitetura ResNet18 e configurações conservadoras. **Obteve o melhor ROC-AUC na competição** ([Kaggle – Lígia - CV](https://www.kaggle.com/competitions/chest-xray-pneumonia-ligia)): **0.99543**.
+Modelo de referência. Estabelece o desempenho base do projeto com a arquitetura ResNet18 e configurações conservadoras. **Obteve o melhor ROC-AUC na competição** ([Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview)): **0.99543**.
 
 ### Hipótese 1 (H1) — Arquitetura: DenseNet121
 
@@ -271,7 +271,7 @@ Modelo de referência. Estabelece o desempenho base do projeto com a arquitetura
 
 ## Resultados
 
-### Desempenho no Kaggle ([Kaggle – Lígia - CV](https://www.kaggle.com/competitions/chest-xray-pneumonia-ligia))
+### Desempenho no Kaggle ([Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview))
 
 | Submissão | ROC-AUC (Kaggle público) |
 |---|---|
