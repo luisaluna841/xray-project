@@ -1,0 +1,11 @@
+# Dataset
+data/train/
+data/test_images/
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
