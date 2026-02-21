@@ -13,8 +13,6 @@ Este projeto desenvolve um classificador binário de imagens de raio-X torácico
 **Modelo com melhor desempenho no Kaggle:** ResNet18 Baseline (`submission_resnet18.csv`) — ROC-AUC: 0.99543  
 **Modelo recomendado clinicamente:** ResNet18 com Class Weighting (H3)  
 **Métrica principal:** ROC-AUC  
-**Dataset:** [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview)
-
 ---
 
 ## Estrutura do Repositório
@@ -106,11 +104,9 @@ pip install -r requirements.txt
 
 ## Download dos Dados (Kaggle)
 
-As imagens são fornecidas pela competição no [Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview) e **não estão incluídas no repositório** por limitações de tamanho. Siga os passos abaixo para baixá-las automaticamente.
-
 ### Pré-requisito: configurar credenciais do Kaggle
 
-1. Acesse [kaggle.com](https://www.kaggle.com) → Account → API → **Create New Token**
+1. Acesse [kaggle.com]([https://www.kaggle.com](https://www.kaggle.com/competitions/chest-xray-pneumonia-ligia)) → Account → API → **Create New Token**
 2. Salve o arquivo `kaggle.json` baixado em:
    - **Windows:** `C:\Users\<usuario>\.kaggle\kaggle.json`
    - **Linux/macOS:** `~/.kaggle/kaggle.json`
@@ -245,7 +241,6 @@ Todos os experimentos compartilham os mesmos splits, hiperparâmetros base (lr=1
 
 ### Baseline — ResNet18 + Augmentation Leve + Sem Class Weight
 
-Modelo de referência. Estabelece o desempenho base do projeto com a arquitetura ResNet18 e configurações conservadoras. **Obteve o melhor ROC-AUC na competição** ([Kaggle – Lígia - CV](https://www.kaggle.com/competitions/ligia-compviz/overview)): **0.99543**.
 
 ### Hipótese 1 (H1) — Arquitetura: DenseNet121
 
