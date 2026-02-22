@@ -259,22 +259,7 @@ kaggle>=1.5.12
 pip install -r requirements.txt
 ```
 
----
 
-## O que sobe no Git / O que não sobe
-
-| ✅ Sobe | ❌ Não sobe |
-|---|---|
-| `src/` | `data/train/` |
-| `notebooks/` | `data/test_images/` |
-| `data/metadata/*.csv` | `data/test.csv` |
-| `outputs/figures/` | `models/*.pt` |
-| `outputs/metrics/*.pkl` | `venv/` e `test_env/` |
-| `outputs/submissions/*.csv` | `__pycache__/` e `*.pyc` |
-| `requirements.txt`, `README.md` | `.ipynb_checkpoints/` |
-| `relatorio.pdf`, `CONCLUSAO.md` | |
-
-O `.gitignore` já está configurado corretamente no repositório.
 
 ---
 
