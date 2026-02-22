@@ -40,7 +40,7 @@ xray-project/
 │   ├── test_images/                # ← você preenche (não sobe no git)
 │   └── test.csv
 │
-├── models/                         # Pesos treinados .pt — não sobem no git
+├── models/                         # Pesos treinados .pt 
 │   ├── resnet18_light_noCW.pt      # Baseline
 │   ├── densenet121_light_noCW.pt   # H1
 │   ├── resnet18_strong_noCW.pt     # H2
