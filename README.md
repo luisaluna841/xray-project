@@ -9,7 +9,7 @@
 
 ## 📄 Relatório Técnico
 
-O relatório completo está disponível em [`relatorio.pdf`](./relatorio.pdf), incluindo análise exploratória, metodologia, resultados, interpretabilidade Grad-CAM e conclusões.
+O relatório completo está disponível em [drive](https://drive.google.com/drive/u/0/folders/1-kqOUsScpMm_xnURcVmIyuVYI4hSL_Y_), incluindo pesos, submissão do Kaggle e dataset.
 
 ---
 
