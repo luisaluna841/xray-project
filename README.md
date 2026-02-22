@@ -80,7 +80,7 @@ xray-project/
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/<seu-usuario>/xray-project.git
+git clone https://github.com/<luisaluna841>/xray-project.git
 cd xray-project
 ```
 
