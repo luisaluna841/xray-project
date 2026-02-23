@@ -12,6 +12,11 @@
 O relatório completo está disponível em [drive](https://drive.google.com/drive/u/0/folders/1JRNAtDN96Fl9MbU3MkT_2DSyooErm0N9), incluindo pesos, submissão do Kaggle e dataset.
 
 ---
+## Ambiente
+
+O projeto foi desenvolvido e testado com:
+
+- Python 3.10.11
 
 ## Visão Geral
 
